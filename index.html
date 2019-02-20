@@ -57,10 +57,6 @@
                                 <li>
                                     <a href="index.html#abt">About</a>
                                 </li>
-                                 <li>
-                                    <a href="#">Knowledge Center</a>
-                                </li> 
-
                                 <li>
                                     <a href="index.html#team">Team</a>
                                 </li>
@@ -115,8 +111,8 @@
      
       
     
-    <!-- about -->
-      <section class="about-us" style="">
+    <!-- about 
+      <section id="abt" class="about-us" style="">
           <div class="row about" >
               <div class="col-sm-5 img-holder">
                 <img src="images/college.jpeg">
@@ -130,7 +126,49 @@
               </div>
           </div>
       </section>
-    
+   ------------------------------> 
+    <style>
+        div#registration, .bg{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top:6%;
+        }
+        .blinking{
+            font-size: 25px;
+            animation:blinkingText 0.8s infinite;
+        }
+        @keyframes blinkingText{
+            0%{     color: #000;
+                   
+              }
+            49%{    color: red; 
+                   
+               }
+            50%{    color: red; 
+                    
+               }
+            99%{    color:red;
+                    
+            }
+            100%{   color: #000; 
+                     
+            }
+        }
+    </style>
+    <!--registration-->
+    <section class="register">
+        <div class="container-fluid">
+            <div class="row" id="registration">
+                <div class="bg">
+                <h1 style="font-size: 4em; font-weight: 600; color: #693ba5;">Gamer of the year.</h1>
+                <p style="font-size:23px; text-align: center">Yes folks your wait is over. We are proud to present you with the most awaited event Gamer of the year.</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWBHkqyZxg_rsrUs203VbqgY3zsYpcb_9NixbooZGg39h2Rw/viewform"><span class="blinking">Register now</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
     
       
  <section class="highlightsContainer" style="margin:2%">
@@ -168,7 +206,7 @@
                    
                   <div class="col-sm-4 parent pad"  style="height:300px">
                     <div class="pad scale" style="background-image: url(images/img-portfolio/5.jpg)">
-                        <a href="">Our Events</a> 
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWBHkqyZxg_rsrUs203VbqgY3zsYpcb_9NixbooZGg39h2Rw/viewform">Our Events</a> 
                     </div>
                    </div>
                     
@@ -222,8 +260,8 @@
                                 <div class="back">
                                     <div class="back-inner" style="">
                                         <p>
-                                            <b>Shubham Jaiswal</b> nicknamed "piku" is our all time media head and part time technical guru. He is a fullstack developer who is currently intrested in machine learning.<br>
-                                            &nbsp Our media head loves exploring and travelling with friends. If you need any help feel free to contact him because he loves helping others.
+                                          our esteemed president <b>Anurag Kumar</b> is known for his leadership skills. He might not have techinacal insights but he brings to the table his great communication skills. <br>
+                                          &nbsp A people's person our president loves spending and having a good time with his friends. 
                                         </p>
                                     </div>
                                 </div>
@@ -232,7 +270,7 @@
                        </div>
                        <!-- Slide 2 -->
                         <div class="teams-slides col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1">
-                         <div class="vertical flip-container" ontouchstart="this.classList.toggle('hover');" onclick="this.classList.toggle('hover');">
+                         <div class="vertical flip-container" ontouchstart="this.classList.toggle('hover');">
                             <div class="flipper">
                                 <!-- front content -->
                                 <div class="front">
@@ -359,8 +397,7 @@
                                 <div class="back">
                                     <div class="back-inner" style="">
                                         <p>
-                                            <b>Shubham Jaiswal</b> nicknamed "piku" is our all time media head and part time technical guru. He is a fullstack developer who is currently intrested in machine learning.<br>
-                                            &nbsp Our media head loves exploring and travelling with friends. If you need any help feel free to contact him because he loves helping others.
+                                            Creative head <b>Amisha kumari</b>is an enthusiastic, fun-loving and sporty inividual. Apart from bringing creativity to our soceity she is a great shutterbug. She happens to runs her own small business of hand-made stuff. Feel free to contact her to add creatively to your work.
                                         </p>
                                     </div>
                                 </div>
@@ -449,3 +486,11 @@
     <script src="js/custom.js"></script>
 </body>
 </html>
+
+xhr 
+xios
+dom content /loaded
+page lifecycle + js
+amazon services/ microservices
+cta
+
